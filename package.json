@@ -1,18 +1,25 @@
 {
   "name": "wp-vue-test",
   "version": "1.0.0",
-  "description": "vue apply in wordpress",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "gulp"
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "iqbalrony",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqbalrony/wp-vue-test.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {
-    "vue": "^3.2.45",
-    "vue-router": "^4.1.6"
+  "bugs": {
+    "url": "https://github.com/iqbalrony/wp-vue-test/issues"
   },
+  "homepage": "https://github.com/iqbalrony/wp-vue-test#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "@vitejs/plugin-vue": "^4.0.0",
+    "vite": "^4.0.4"
   }
 }
